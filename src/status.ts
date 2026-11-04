@@ -11,7 +11,7 @@ export type Status = {
   nights: NightSummary[];
 };
 
-// counts is null when the night cannot be read: the view renders '—'.
+// counts is null when the night cannot be read: the view renders 'â€”'.
 export type NightSummary = { night: string; counts: NightCounts | null };
 
 // Nights on disk = runs/<YYYY-MM-DD>.jsonl, newest first.
